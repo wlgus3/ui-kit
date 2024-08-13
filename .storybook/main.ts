@@ -23,7 +23,7 @@ const config: StorybookConfig = {
 
  core: {
   builder: '@storybook/builder-vite',
-},
-staticDirs: [{ from: '../src/css/fonts.css', to: '/assets/fonts.css' }],
+ },
+ staticDirs: [{ from: '../src/css/fonts.css', to: '/assets/fonts.css' }],
 };
 export default config;
